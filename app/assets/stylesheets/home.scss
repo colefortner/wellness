@@ -1,0 +1,49 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// Colt's Button 
+h1 {
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .colt-btn { 
+  // removes base styles 
+    outline: none;
+    border: none;
+  /*   changes cursor to a hand */
+    cursor: pointer;
+  /*   positoning of button */
+    display: block;
+    position: relative;
+  /*   style button */
+    background-color: #fcad26;
+    font-size: 16px;
+    font-weight: 300px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  /*   positions the text inside the button */
+    padding: 25px 80px;
+  /*   centerst the button on the page */
+    margin: 0 auto;
+    border-radius: 20px;
+  /*   this has two parameters, the x offset and the y offset */
+  /*   we will also give it a color */
+  /*   we will reduce this y offset when we hover and then reduce 
+       it further when we activate it*/
+    box-shadow: 0 6px #efa424;
+   }
+  
+  .colt-btn:hover {
+    box-shadow: 0 4px #efa424;
+    top:  2px;
+  }
+  
+  .colt-btn:active {
+    box-shadow: none;
+    top: 6px;
+  }
+
+  // Josh's Button
